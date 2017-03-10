@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Messaging.Postie.Unity", "src\MementoFX.Messaging.Postie.Unity\Memento.Messaging.Postie.Unity.csproj", "{26288DE4-A5E8-4A87-9548-F550DFDADB62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Messaging.Postie.Unity.Tests", "src\MementoFX.Messaging.Postie.Unity.Tests\Memento.Messaging.Postie.Unity.Tests.csproj", "{8C3E55A2-6BBB-43D7-B26A-03E99CB4EB48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26288DE4-A5E8-4A87-9548-F550DFDADB62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26288DE4-A5E8-4A87-9548-F550DFDADB62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26288DE4-A5E8-4A87-9548-F550DFDADB62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26288DE4-A5E8-4A87-9548-F550DFDADB62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C3E55A2-6BBB-43D7-B26A-03E99CB4EB48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3E55A2-6BBB-43D7-B26A-03E99CB4EB48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3E55A2-6BBB-43D7-B26A-03E99CB4EB48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3E55A2-6BBB-43D7-B26A-03E99CB4EB48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
