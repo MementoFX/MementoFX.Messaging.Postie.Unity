@@ -14,6 +14,7 @@
     <PackageLicenseUrl>https://opensource.org/licenses/RPL-1.5</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/MementoFX/MementoFX.Messaging.Postie.Unity</RepositoryUrl>
     <PackageTags>mementofx, bus, postie, cqrs, ddd, unity, ioc</PackageTags>
+    <Authors>Andrea Saltarello, Mastreeno ltd</Authors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
