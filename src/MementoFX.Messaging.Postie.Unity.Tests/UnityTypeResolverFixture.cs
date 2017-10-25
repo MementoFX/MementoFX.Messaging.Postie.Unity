@@ -3,12 +3,8 @@ using Moq;
 using NUnit.Framework;
 using SharpTestsEx;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Memento.Messaging.Postie.Unity.Tests
+namespace MementoFX.Messaging.Postie.Unity.Tests
 {
     [TestFixture]
     public class UnityTypeResolverFixture
@@ -33,6 +29,22 @@ namespace Memento.Messaging.Postie.Unity.Tests
             var containerMock = new Mock<IUnityContainer>().Object;
             var sut = new UnityTypeResolver(containerMock);
             Assert.AreSame(containerMock, sut.Container);
+        }
+
+        [Test]
+        public void Resolve__should_throw_ArgumentNullException_on_null_t_parameter()
+        {
+            var containerMock = new Mock<IUnityContainer>().Object;
+            var sut = new UnityTypeResolver(containerMock);
+            Executing.This(() => sut.Resolve(null))
+                .Should()
+                .Throw<ArgumentNullException>()
+                .And
+                .ValueOf
+                .ParamName
+                .Should()
+                .Be
+                .EqualTo("t");
         }
     }
 }

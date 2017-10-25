@@ -1,11 +1,12 @@
-﻿using Microsoft.Practices.Unity;
+﻿using Memento.Messaging.Postie;
+using Microsoft.Practices.Unity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Memento.Messaging.Postie.Unity
+namespace MementoFX.Messaging.Postie.Unity
 {
     /// <summary>
     /// Defines a Unity-based type resolver for Postie
@@ -23,9 +24,7 @@ namespace Memento.Messaging.Postie.Unity
         /// <param name="container">The container instance used to resolve types</param>
         public UnityTypeResolver(IUnityContainer container)
         {
-            if (container == null)
-                throw new ArgumentNullException(nameof(container));
-            Container = container;
+            Container = container ?? throw new ArgumentNullException(nameof(container));
         }
 
         /// <summary>
@@ -35,6 +34,8 @@ namespace Memento.Messaging.Postie.Unity
         /// <returns>The retrieved object.</returns>
         public object Resolve(Type t)
         {
+            if (t == null)
+                throw new ArgumentNullException(nameof(t));
             return Container.Resolve(t);
         }
     }
