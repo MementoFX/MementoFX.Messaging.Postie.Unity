@@ -3,18 +3,18 @@
     <TargetFramework>net462</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Company>Mastreeno ltd</Company>
+    <Company>Managed Designs</Company>
     <Product>MementoFX</Product>
     <Description>An Unity-based type resolver for Postie</Description>
-    <PackageProjectUrl>http://mementofx.mastreeno.com</PackageProjectUrl>
+    <PackageProjectUrl>https://opensource.manageddesigns.it/mementofx</PackageProjectUrl>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <FileVersion>2.0.0.0</FileVersion>
-    <Version>2.0.0-pre1</Version>
-    <Copyright>© Andrea Saltarello, Mastreeno ltd 2015-2017</Copyright>
+    <Version>2.0.0-pre2</Version>
+    <Copyright>© 2013-2018 Andrea Saltarello, Managed Designs</Copyright>
     <PackageLicenseUrl>https://opensource.org/licenses/RPL-1.5</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/MementoFX/MementoFX.Messaging.Postie.Unity</RepositoryUrl>
     <PackageTags>mementofx, bus, postie, cqrs, ddd, unity, ioc</PackageTags>
-    <Authors>Andrea Saltarello, Mastreeno ltd</Authors>
+    <Authors>Andrea Saltarello, Managed Designs</Authors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -36,8 +36,8 @@
     <DocumentationFile>bin\Release\MementoFX.Messaging.Postie.Unity.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="MementoFX" Version="2.0.0-pre5" />
-    <PackageReference Include="MementoFX.Messaging.Postie" Version="2.0.0-pre1" />
+    <PackageReference Include="MementoFX" Version="2.0.0-pre6" />
+    <PackageReference Include="MementoFX.Messaging.Postie" Version="2.0.0-pre2" />
     <PackageReference Include="Unity" Version="4.0.1" />
   </ItemGroup>
   <ItemGroup>
