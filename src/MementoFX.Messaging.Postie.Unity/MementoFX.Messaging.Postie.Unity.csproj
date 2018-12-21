@@ -9,7 +9,7 @@
     <PackageProjectUrl>https://opensource.manageddesigns.it/mementofx</PackageProjectUrl>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <FileVersion>2.0.0.0</FileVersion>
-    <Version>2.0.0-pre2</Version>
+    <Version>2.0.0-pre3</Version>
     <Copyright>© 2013-2018 Andrea Saltarello, Managed Designs</Copyright>
     <PackageLicenseUrl>https://opensource.org/licenses/RPL-1.5</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/MementoFX/MementoFX.Messaging.Postie.Unity</RepositoryUrl>
@@ -36,8 +36,8 @@
     <DocumentationFile>bin\Release\MementoFX.Messaging.Postie.Unity.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="MementoFX" Version="2.0.0-pre6" />
-    <PackageReference Include="MementoFX.Messaging.Postie" Version="2.0.0-pre2" />
+    <PackageReference Include="MementoFX" Version="2.0.0" />
+    <PackageReference Include="MementoFX.Messaging.Postie" Version="2.0.0" />
     <PackageReference Include="Unity" Version="4.0.1" />
   </ItemGroup>
   <ItemGroup>
