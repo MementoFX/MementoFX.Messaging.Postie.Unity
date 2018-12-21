@@ -1,5 +1,5 @@
-﻿using Microsoft.Practices.Unity;
-using System;
+﻿using System;
+using Unity;
 
 namespace MementoFX.Messaging.Postie.Unity
 {

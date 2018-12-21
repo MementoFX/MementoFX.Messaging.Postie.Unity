@@ -1,4 +1,4 @@
-﻿using Microsoft.Practices.Unity;
+﻿using Unity;
 using Moq;
 using NUnit.Framework;
 using SharpTestsEx;
